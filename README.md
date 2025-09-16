@@ -5,11 +5,13 @@
 ## Команды:
 ### ls: 
 Вывод названия команды и аргументов
-<img width="117" height="82" alt="image" src="https://github.com/user-attachments/assets/5a29c4f2-1d72-4b6f-9bc1-5d7d4f9e96bc" />
+
+<img width="128" height="79" alt="image" src="https://github.com/user-attachments/assets/406bfaa9-c155-4fb9-b4f8-d79f6ce5099a" />
 
 ### cd: 
 Вывод названия команды и аргументов
-<img width="124" height="86" alt="image" src="https://github.com/user-attachments/assets/06033d63-6219-4c2f-af8f-1dd0c911b76c" />
+
+<img width="121" height="80" alt="image" src="https://github.com/user-attachments/assets/e2a8a3af-0770-419c-bc3b-ade07dbe8026" />
 
 ### exit: 
 Закрытие приложения
