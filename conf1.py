@@ -25,7 +25,7 @@ entry.pack(anchor=NW, padx=0, pady= 0)
 
 listbox = Listbox()
 listbox.pack(side=LEFT, fill=BOTH, expand=1)
-# сдвигаем скрол на 1 элемент вниз
+
 scrollbar = ttk.Scrollbar(orient="vertical", command=listbox.yview)
 scrollbar.pack(side=RIGHT, fill=Y)
   
@@ -38,12 +38,6 @@ def show_message(event):
     parser = s.split()
     comm = parser[0]
     args = parser[1:]
-    for i in range(len(args)):
-        var = args[i]
-        if args[i][0] == '$':
-            args[i] = os.getenv(args[i][1:])
-            if args[i] is None:
-                listbox.insert(tk.END, f"Переменная {var} не найдена")
     if comm not in commands:
         listbox.insert(tk.END, f"Неизвестная команда {comm}")
     if comm == "ls":
@@ -62,9 +56,5 @@ entry.bind('<Return>', show_message)
 
 root.mainloop()
 
-#ttk.Label(frm, text="Hello World!").grid(column=0, row=0)
-#ttk.Button(frm, text="Quit", command=root.destroy).grid(column=0, row=1)
 
-#btn = ttk.Button(text="Click", command=show_message)
-#btn.pack(anchor=NW, padx=6, pady=6)
  
