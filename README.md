@@ -20,3 +20,6 @@
 ### Неизвестная команда:
 <img width="190" height="40" alt="image" src="https://github.com/user-attachments/assets/c027b503-4fad-4270-ad61-fc4ffecdee10" />
 
+## Файлы:
+Стартовые скрипты, скрипты реальной ОС, конфигурационный файл
+
